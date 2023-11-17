@@ -40,7 +40,7 @@ header {
 
 .nav-item-btn {
   float: right;
-  margin-right: 60px;
+  margin-right: 100px;
   margin-top: 20px;
   padding: 14px 16px;
   display: flex;
@@ -69,6 +69,26 @@ header {
   background-color: #ddd;
   color: black;
   height: fit-content;
+}
+
+/*------------------------------navbar----------------------------------------------*/
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*Generando una cuadricula 2 fracciones*/
+  align-items: center;
+}
+
+.text-about {
+  color: #ddd;
+  justify-self: left;
+  margin-left: 160px;
+  padding-right: 180px;
+}
+
+.img-about {
+  justify-self: right;
+  margin-right: 400px;
 }
 
 /* Estilos para dispositivos móviles */
