@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1830;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.navbar {
+  background-color: #1a1830;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.nav-item-img {
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-item-btn {
+  float: right;
+  margin-right: 60px;
+  margin-top: 20px;
+  padding: 14px 16px;
+  display: flex;
+  background-color: #008d36;
+  border-radius: 15px;
+  cursor: pointer;
+  border-color: #008d36;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  width: 100px;
+  height: 40px;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #ddd;
+  color: black;
+  height: fit-content;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Estilos para adaptarse a dispositivos móviles */
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  /* Estilos para adaptarse a pantallas grandes */
+}
