@@ -164,7 +164,7 @@ a {
   width: 200px;
   height: 200px;
   margin-top: 20px;
-  border-top-right-radius: 30px;
+  border-top-right-radius: 40px;
   padding: 20px;
   margin-right: 180px;
 }
@@ -179,7 +179,7 @@ a {
   height: 200px;
   margin-top: 20px;
   padding: 20px;
-  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 40px;
 }
 
 .value3 {
@@ -193,6 +193,23 @@ a {
   margin-top: 20px;
 
   padding: 20px;
+}
+
+.facebook {
+  margin-top: 30px;
+  margin-left: 750px;
+  margin-right: 70px;
+  width: 50px;
+  height: 75px;
+}
+.instagram {
+  margin-right: 70px;
+  width: 60px;
+  height: 65px;
+}
+.youtube {
+  width: 70px;
+  height: 50px;
 }
 
 /* Estilos para dispositivos móviles */

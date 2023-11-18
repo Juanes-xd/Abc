@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: #1a1830;
+}
+
+.navbar {
+  background-color: #1a1830;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: large;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.nav-item-img {
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-item-btn {
+  float: right;
+  margin-right: 100px;
+  margin-top: 20px;
+  padding: 14px 16px;
+  display: flex;
+  background-color: #008d36;
+  border-radius: 15px;
+  cursor: pointer;
+  border-color: #008d36;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  width: 100px;
+  height: 40px;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #ddd;
+  color: black;
+  height: fit-content;
+}
+
+/*-------------------------------------navbar----------------------------*/
+
+.academic {
+  background-image: url("../Imagenes/academic.png");
+  background-size: cover;
+  height: 350px;
+}
+
+.title-academic {
+  color: #008d36;
+  font-size: x-large;
+  margin-left: 33em;
+  padding-top: 2em;
+}
+
+.text-academic {
+  color: white;
+  margin-left: 40em;
+  margin-right: 14em;
+}
+
+.strategy {
+  background-image: url("../Imagenes/strategy.png");
+  background-size: cover;
+  height: 350px;
+}
+
+.title-strategy {
+  margin-left: 13em;
+  padding-top: 3em;
+}
+
+.text-strategy {
+  margin-left: 11em;
+  margin-right: 46em;
+  padding-top: 1em;
+}
+
+.social {
+  background-image: url("../Imagenes/social.png");
+  background-size: cover;
+  height: 350px;
+}
+
+.branding {
+  background-image: url("../Imagenes/design.png");
+  background-size: cover;
+  height: 350px;
+}
+
+.title-branding {
+  margin-left: 12em;
+  padding-top: 3em;
+}
+
+.text-branding {
+  margin-left: 11em;
+  margin-right: 45em;
+  padding-top: 1em;
+}
+
+.podcast {
+  background-image: url("../Imagenes/Baner\ Podcast.png");
+  background-size: cover;
+  height: 350px;
+}
+
+.title-podcast {
+  color: #008d36;
+  font-size: x-large;
+  margin-left: 35em;
+  padding-top: 2em;
+}
+
+.text-podcast {
+  color: white;
+  margin-left: 45em;
+  margin-right: 14em;
+}
