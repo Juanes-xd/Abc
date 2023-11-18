@@ -26,6 +26,10 @@ header {
   padding: 0;
 }
 
+a {
+  font-size: large;
+}
+
 .nav-item {
   float: left;
   margin-left: 140px;
@@ -82,13 +86,113 @@ header {
 .text-about {
   color: #ddd;
   justify-self: left;
-  margin-left: 160px;
-  padding-right: 180px;
+  margin-left: 150px;
+  padding-right: 100px;
 }
 
 .img-about {
   justify-self: right;
-  margin-right: 400px;
+  margin-right: 290px;
+  margin-bottom: 10px;
+}
+
+.who {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*Generando una cuadricula 2 fracciones*/
+  align-items: center;
+  background-color: white;
+}
+
+.title-who {
+  color: #008d36;
+  justify-self: right;
+  margin-right: 350px;
+}
+
+.text-who {
+  color: black;
+  justify-self: right;
+  margin-right: 150px;
+  padding-left: 100px;
+}
+
+.text-who2 {
+  color: black;
+  justify-self: right;
+  margin-right: 150px;
+  padding-left: 100px;
+  text-justify: distribute-all-lines;
+}
+
+.div-who {
+  list-style: none;
+  display: grid;
+  justify-self: right;
+  /*Organiza los elementos de manera horizontal*/
+}
+
+.img-who {
+  border-color: #008d36;
+  justify-self: left;
+  margin-left: 300px;
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /*Generando una cuadricula 2 fracciones*/
+  align-items: center;
+}
+
+.values h2 {
+  text-align: center;
+}
+
+.title-value {
+  color: white;
+  justify-self: center;
+  margin-left: 540px;
+}
+
+.value1 {
+  justify-self: center;
+  color: white;
+  justify-content: center;
+  background-color: darkgray;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  border-top-right-radius: 30px;
+  padding: 20px;
+  margin-right: 180px;
+}
+
+.value2 {
+  justify-self: right;
+  color: white;
+  justify-content: center;
+  text-justify: center;
+  background-color: darkgray;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+}
+
+.value3 {
+  justify-self: center;
+  color: white;
+
+  justify-content: center;
+  background-color: darkgray;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+
+  padding: 20px;
 }
 
 /* Estilos para dispositivos móviles */
