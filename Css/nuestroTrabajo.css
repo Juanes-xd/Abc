@@ -103,3 +103,111 @@ a {
   font-size: 1.1em;
   color: white;
 }
+
+.strategy {
+  color: #008d36;
+  margin-left: 22em;
+}
+.img-titleClientes {
+  width: 1em;
+  height: 1em;
+}
+
+.clientes2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /*Generando una cuadricula 2 fracciones*/
+  align-items: center;
+}
+
+.clientes2 p {
+  padding: 0.4em;
+  text-align: center;
+}
+
+.clientes2 div {
+  margin-left: 3em;
+}
+
+.sucre {
+  background-color: #008d36;
+  color: white;
+  margin-left: 4em;
+  width: 10em;
+  height: 17em;
+  border-bottom-left-radius: 2em;
+}
+.img-sucre {
+  width: 9em;
+  height: 4em;
+  background-color: white;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.rosas {
+  background-color: #008d36;
+  color: white;
+  width: 10em;
+  height: 17em;
+}
+
+.img-rosas {
+  width: 8em;
+  height: 4em;
+  background-color: white;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.momentos {
+  background-color: #008d36;
+  color: white;
+  width: 10em;
+  height: 17em;
+}
+
+.img-momentos {
+  width: 8em;
+  height: 4em;
+  background-color: white;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.bioholistics {
+  background-color: #008d36;
+  color: white;
+  width: 10em;
+  height: 17em;
+  border-top-right-radius: 2em;
+}
+
+.img-bio {
+  width: 8.5em;
+  height: 4em;
+  background-color: white;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.academic {
+  color: #1a1830;
+  margin-left: 22em;
+}
+
+.liceoJuvenil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #1a1830;
+}
+.liceoJuvenil p {
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.img-liceo {
+  width: 100%;
+  height: 100%;
+}

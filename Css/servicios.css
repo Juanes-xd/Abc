@@ -118,9 +118,24 @@ a {
 }
 
 .social {
-  background-image: url("../Imagenes/social.png");
+  background-image: url("../Imagenes/socialMedia.png");
   background-size: cover;
   height: 21em;
+}
+
+.title-social {
+  color: #008d36;
+  font-size: x-large;
+  margin-left: 25em;
+  padding-top: 2em;
+  font-size: 2em;
+}
+
+.text-social {
+  color: white;
+  margin-left: 42em;
+  margin-right: 9em;
+  font-size: 1.1em;
 }
 
 .branding {

@@ -142,7 +142,7 @@ a {
 
 .values {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /*Generando una cuadricula 2 fracciones*/
+  grid-template-columns: 1fr 1fr 1fr 1fr; /*Generando una cuadricula 2 fracciones*/
   align-items: center;
 }
 
