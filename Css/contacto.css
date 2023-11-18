@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(206, 206, 206);
+}
+
+header {
+  width: 100%;
+  height: 6.25em; /* 100px to em */
+  position: relative;
+}
+
+.navbar {
+  background-color: #1a1830;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: large;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 8.333em; /* 140px to em */
+  margin-top: 1.25em; /* 20px to em */
+}
+
+.nav-item-img {
+  width: 1.875em; /* 30px to em */
+  height: 2.5em; /* 40px to em */
+  cursor: pointer;
+}
+
+.nav-item-btn {
+  float: right;
+  margin-right: 6.25em; /* 100px to em */
+  margin-top: 1.25em; /* 20px to em */
+  padding: 1.14em 1.06em; /* 14px 16px to em */
+  display: flex;
+  background-color: #008d36;
+  border-radius: 0.9375em; /* 15px to em */
+  cursor: pointer;
+  border-color: #008d36;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  width: 6.25em; /* 100px to em */
+  height: 2.5em; /* 40px to em */
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.14em 1.06em; /* 14px 16px to em */
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #ddd;
+  color: black;
+  height: fit-content;
+}
+/*------------------------------navbar----------------------------------------------*/
+
+.formP {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3em;
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.descripcion {
+  background-color: #1a1830;
+}
+
+.text1 {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 14em;
+  padding-bottom: 1em;
+  color: #008d36;
+  font-size: 1.5em;
+}
+
+.text2 {
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 1.5em;
+  padding-bottom: 2em;
+  color: white;
+}
+
+.form {
+  background-color: white;
+  padding-right: 6em;
+  display: grid;
+}
+h2 {
+  text-align: center;
+  color: #008d36;
+  padding-left: 4.6em;
+  padding-top: 2em;
+}
+.form-group {
+  max-width: 10em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(102, 102, 102);
+}
+
+input {
+  width: 17em;
+  padding: 2em;
+  border: none;
+  background-color: rgb(207, 203, 203);
+  color: rgb(207, 203, 203);
+  border-radius: 1.5em;
+  height: 0.1em;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14em;
+  padding: 2em;
+  height: 1.2em;
+  background-color: #008d36;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  margin-bottom: 3em;
+  margin-left: 11.5em;
+}
+
+.btn-donar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14em;
+  padding: 2em;
+  height: 1.2em;
+  background-color: #008d36;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  margin-top: 5em;
+  margin-left: 34em;
+  margin-bottom: 5em;
+}
+
+.vaki {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  width: 70em;
+  height: 28em;
+  align-items: center;
+  margin-left: 7.6em;
+}
+
+.p1 {
+  color: #008d36;
+  padding: 0.4em;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+.h1 {
+  color: black;
+  padding: 0.4em;
+  margin-top: 1em;
+  font-size: 1.8em;
+}
+.p2 {
+  color: black;
+  padding: 0.4em;
+  margin-top: 1em;
+  font-size: 1.5em;
+}

@@ -4,9 +4,8 @@ body {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 6.25em; /* 100px to em */
   position: relative;
-  background-color: #1a1830;
 }
 
 .navbar {
@@ -31,24 +30,24 @@ a {
 
 .nav-item {
   float: left;
-  margin-left: 140px;
-  margin-top: 20px;
+  margin-left: 8.333em; /* 140px to em */
+  margin-top: 1.25em; /* 20px to em */
 }
 
 .nav-item-img {
-  width: 30px;
-  height: 40px;
+  width: 1.875em; /* 30px to em */
+  height: 2.5em; /* 40px to em */
   cursor: pointer;
 }
 
 .nav-item-btn {
   float: right;
-  margin-right: 100px;
-  margin-top: 20px;
-  padding: 14px 16px;
+  margin-right: 6.25em; /* 100px to em */
+  margin-top: 2em; /* 20px to em */
+  padding: 1.14em 1.06em; /* 14px 16px to em */
   display: flex;
   background-color: #008d36;
-  border-radius: 15px;
+  border-radius: 0.9375em; /* 15px to em */
   cursor: pointer;
   border-color: #008d36;
   text-align: center;
@@ -56,15 +55,15 @@ a {
   justify-content: center;
   align-items: center;
   color: #ddd;
-  width: 100px;
-  height: 40px;
+  width: 6.25em; /* 100px to em */
+  height: 2.5em; /* 40px to em */
 }
 
 .nav-item a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.14em 1.06em; /* 14px 16px to em */
   text-decoration: none;
 }
 
@@ -73,8 +72,7 @@ a {
   color: black;
   height: fit-content;
 }
-
-/*-------------------------------------navbar----------------------------*/
+/*------------------------------navbar----------------------------------------------*/
 
 .cliente1 {
   background-image: url("../Imagenes/Testimonio\ Eugy\ Design.png");

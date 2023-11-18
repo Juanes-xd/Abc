@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abc Marketing</title>
-    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="Css/contacto.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <ul class="navbar-nav">
-                <li class="nav-item"><img class="nav-item-img" src="img/home-outline.svg" href="index.html"></img></li>
+                <li class="nav-item"><a href="index.html"><img class="nav-item-img" src="img/home-outline.svg" ></img></a></li>
                 <li class="nav-item"><a href="servicios.html">Servicios</a></li>
                 <li class="nav-item"><a href="nuestroTrabajo.html">Nuestro Trabajo</a></li>
                 <li class="nav-item"><a href="contacto.html">Contacto</a></li>
@@ -19,18 +19,46 @@
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section class="formP">
             <!-- Contenido de la sección sobre nosotros -->
+            <div class="descripcion" ><p class="text1">Nuestros conocimientos y experiencia en la cracion y ejecucion de campañas de marketing digital eficaces,</p>
+                <p class="text2">pueden ahorrarte tiempo y dinero, escalar tus servicios y satisfacer tus necesidades.</p></div>
+            <div class="form" >
+                <h2>Reservar Cita</h2>
+                <form>
+                <div class="form-group">
+                  <label for="nombsre">Nombre</label>
+                  <input type="text" class="form-control" i name="nombre" >
+                </div>
+                <div class="form-group">
+                  <label for="apellido">Apellido</label>
+                  <input type="text" class="form-control" name="apellido" >
+                </div>
+                <div class="form-group">
+                  <label for="correo">Correo electrónico</label>
+                  <input type="email" class="form-control" name="correo" >
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Número de contacto</label>
+                  <input type="tel" class="form-control" " name="telefono" >
+                </div>
+                <button type="submit" class="btn">Reservar ahora</button>
+              </form></div>
         </section>
-        <section id="services">
+        
+        <section class="donacion">
+            <button type="submit" class="btn-donar">Donar</button>
             <!-- Contenido de la sección de servicios -->
+            <div class="vaki" >
+                <div class="vaki-text" >
+                <p class="p1" >Los emprendedores emergentes son personas con ideas innovadoras y gran potencial para crear negocios exitosos. Sin embargo, a menudo carecen de los recursos necesarios para hacer realidad sus sueños.</p>
+                <h1 class="h1" >Tu donacion</h1>
+                <p class="p2" >puede tener un impacto real en sus vidas Puedes ayudarle a iniciar sus negocios, crear empleo y contribuir a la economia.</p>
+            </div>
+            <img class="img-vaki" src="./Imagenes/vaki.png" alt="">
+            </div>
         </section>
-        <section id="values">
-            <!-- Contenido de la sección de valores corporativos -->
-        </section>
-        <section id="contact">
-            <!-- Contenido de la sección de contacto -->
-        </section>
+        
     </main>
     <footer>
         <!-- Contenido del footer -->

@@ -6,7 +6,7 @@ body {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 6.25em; /* 100px to em */
   position: relative;
 }
 
@@ -32,24 +32,24 @@ a {
 
 .nav-item {
   float: left;
-  margin-left: 140px;
-  margin-top: 20px;
+  margin-left: 8.333em; /* 140px to em */
+  margin-top: 1.25em; /* 20px to em */
 }
 
 .nav-item-img {
-  width: 30px;
-  height: 40px;
+  width: 1.875em; /* 30px to em */
+  height: 2.5em; /* 40px to em */
   cursor: pointer;
 }
 
 .nav-item-btn {
   float: right;
-  margin-right: 100px;
-  margin-top: 20px;
-  padding: 14px 16px;
+  margin-right: 6.25em; /* 100px to em */
+  margin-top: 1.25em; /* 20px to em */
+  padding: 1.14em 1.06em; /* 14px 16px to em */
   display: flex;
   background-color: #008d36;
-  border-radius: 15px;
+  border-radius: 0.9375em; /* 15px to em */
   cursor: pointer;
   border-color: #008d36;
   text-align: center;
@@ -57,15 +57,15 @@ a {
   justify-content: center;
   align-items: center;
   color: #ddd;
-  width: 100px;
-  height: 40px;
+  width: 6.25em; /* 100px to em */
+  height: 2.5em; /* 40px to em */
 }
 
 .nav-item a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.14em 1.06em; /* 14px 16px to em */
   text-decoration: none;
 }
 
@@ -74,7 +74,6 @@ a {
   color: black;
   height: fit-content;
 }
-
 /*------------------------------navbar----------------------------------------------*/
 
 .about {
@@ -86,14 +85,15 @@ a {
 .text-about {
   color: #ddd;
   justify-self: left;
-  margin-left: 150px;
-  padding-right: 100px;
+  margin-left: 6em;
+  padding-right: 4em;
+  font-size: 1.5em;
 }
 
 .img-about {
   justify-self: right;
-  margin-right: 290px;
-  margin-bottom: 10px;
+  margin-right: 19.0625em;
+  margin-bottom: 0.625em;
 }
 
 .who {
@@ -106,22 +106,25 @@ a {
 .title-who {
   color: #008d36;
   justify-self: right;
-  margin-right: 350px;
+  margin-right: 10em;
+  font-size: 2em;
 }
 
 .text-who {
   color: black;
   justify-self: right;
-  margin-right: 150px;
-  padding-left: 100px;
+  margin-right: 5em;
+  padding-left: 2em;
+  font-size: 1.2em;
 }
 
 .text-who2 {
   color: black;
   justify-self: right;
-  margin-right: 150px;
-  padding-left: 100px;
+  margin-right: 5em;
+  padding-left: 2em;
   text-justify: distribute-all-lines;
+  font-size: 1.2em;
 }
 
 .div-who {
@@ -134,10 +137,10 @@ a {
 .img-who {
   border-color: #008d36;
   justify-self: left;
-  margin-left: 300px;
-  margin-top: 30px;
-  width: 300px;
-  height: 300px;
+  margin-left: 18.75em;
+  margin-top: 1.875em;
+  width: 18.75em;
+  height: 18.75em;
 }
 
 .values {
@@ -153,7 +156,7 @@ a {
 .title-value {
   color: white;
   justify-self: center;
-  margin-left: 540px;
+  margin-left: 22em;
 }
 
 .value1 {
@@ -161,12 +164,12 @@ a {
   color: white;
   justify-content: center;
   background-color: darkgray;
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  border-top-right-radius: 40px;
-  padding: 20px;
-  margin-right: 180px;
+  width: 12.5em;
+  height: 12.5em;
+  margin-top: 1.25em;
+  border-top-right-radius: 2.5em;
+  padding: 1.25em;
+  margin-right: 5em;
 }
 
 .value2 {
@@ -175,41 +178,42 @@ a {
   justify-content: center;
   text-justify: center;
   background-color: darkgray;
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  padding: 20px;
-  border-bottom-left-radius: 40px;
+  width: 12.5em;
+  height: 12.5em;
+  margin-top: 1.25em;
+  padding: 1.25em;
+  border-bottom-left-radius: 2.5em;
+  margin-left: 17em;
 }
 
 .value3 {
   justify-self: center;
   color: white;
-
   justify-content: center;
   background-color: darkgray;
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-
-  padding: 20px;
+  width: 12.5em;
+  height: 12.5em;
+  margin-top: 1.25em;
+  padding: 1.25em;
 }
 
 .facebook {
-  margin-top: 30px;
-  margin-left: 750px;
-  margin-right: 70px;
-  width: 50px;
-  height: 75px;
+  margin-top: 1.875em;
+  margin-left: 46.875em;
+  margin-right: 4.375em;
+  width: 3.125em;
+  height: 4.6875em;
 }
+
 .instagram {
-  margin-right: 70px;
-  width: 60px;
-  height: 65px;
+  margin-right: 4.375em;
+  width: 3.75em;
+  height: 3.75em;
 }
+
 .youtube {
-  width: 70px;
-  height: 50px;
+  width: 4.375em;
+  height: 2.5em;
 }
 
 /* Estilos para dispositivos móviles */
