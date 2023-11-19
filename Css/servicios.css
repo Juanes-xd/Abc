@@ -43,7 +43,7 @@ a {
 .nav-item-btn {
   float: right;
   margin-right: 6.25em; /* 100px to em */
-  margin-top: 1.25em; /* 20px to em */
+  margin-top: 2em; /* 20px to em */
   padding: 1.14em 1.06em; /* 14px 16px to em */
   display: flex;
   background-color: #008d36;

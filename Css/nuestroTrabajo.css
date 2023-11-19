@@ -209,3 +209,119 @@ a {
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 768px) {
+  .nav-item {
+    margin-left: 5em; /* 80px to em */
+  }
+
+  .nav-item-btn {
+    margin-right: 5em;
+  }
+
+  .cliente1,
+  .cliente2 {
+    height: 21.7em;
+  }
+
+  .text-cliente1,
+  .text-cliente2 {
+    margin-left: 1em;
+    margin-right: 20em;
+    padding-top: 4.5em;
+    font-size: 1em;
+  }
+
+  .clientes2 {
+    grid-template-columns: 1fr 1fr; /*Cambiando a una cuadricula de 2 columnas*/
+  }
+
+  .clientes2 p {
+    padding: 0.3em;
+  }
+
+  .clientes2 div {
+    margin-left: 2em;
+  }
+  .sucre,
+  .rosas,
+  .momentos,
+  .bioholistics {
+    width: 20em;
+    height: 34em;
+  }
+
+  .img-sucre,
+  .img-rosas,
+  .img-momentos,
+  .img-bio {
+    width: 18em;
+    height: 6em;
+  }
+
+  .academic {
+    margin-left: 42em;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-item {
+    margin-left: 4em; /* 64px to em */
+  }
+
+  .nav-item-btn {
+    margin-right: 4em; /* 64px to em */
+  }
+
+  .nav-item a {
+    padding: 0.78em 0.73em; /* 12px 14px to em */
+  }
+
+  .nav-item-btn {
+    padding: 0.78em 0.73em; /* 12px 14px to em */
+  }
+
+  .cliente1,
+  .cliente2 {
+    height: 25.7em;
+  }
+
+  .text-cliente1,
+  .text-cliente2 {
+    margin-left: 0.5em;
+    margin-right: 18em;
+    padding-top: 3.5em;
+    font-size: 0.9em;
+  }
+
+  .clientes2 {
+    grid-template-columns: 1fr; /*Cambiando a una cuadricula de 1 columna*/
+  }
+
+  .clientes2 p {
+    padding: 0.2em;
+  }
+
+  .clientes2 div {
+    margin-left: 1em;
+  }
+  .sucre,
+  .rosas,
+  .momentos,
+  .bioholistics {
+    width: 15em;
+    height: 28em;
+  }
+
+  .img-sucre,
+  .img-rosas,
+  .img-momentos,
+  .img-bio {
+    width: 14em;
+    height: 5em;
+  }
+
+  .academic {
+    margin-left: 31em;
+  }
+}
