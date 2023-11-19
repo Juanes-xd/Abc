@@ -1,6 +1,7 @@
 /* styles.css */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Acumin Variable Concept";
   background-color: #1a1830;
 }
 
@@ -11,7 +12,7 @@ header {
 }
 
 .navbar {
-  background-color: #1a1830;
+  background-color: hsl(245, 33%, 14%);
   overflow: hidden;
   margin: 0;
   padding: 0;
