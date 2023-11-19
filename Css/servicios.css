@@ -176,3 +176,64 @@ a {
   margin-right: 10em;
   font-size: 1.1em;
 }
+
+/* Estilos para pantallas con max 768px de ancho */
+@media (max-width: 768px) {
+  .academic,
+  .strategy,
+  .social,
+  .branding,
+  .podcast {
+    background-repeat: no-repeat;
+    height: max-content;
+  }
+
+  .title-academic,
+  .title-strategy,
+  .title-social,
+  .title-branding,
+  .title-podcast {
+    font-size: medium;
+    margin-left: 5em;
+  }
+
+  .text-academic,
+  .text-strategy,
+  .text-social,
+  .text-branding,
+  .text-podcast {
+    font-size: 0.5em;
+    margin-left: 7em;
+    margin-right: 2em;
+  }
+}
+
+/* Estilos para pantallas con max 600px de ancho */
+@media (max-width: 600px) {
+  .academic,
+  .strategy,
+  .social,
+  .branding,
+  .podcast {
+    background-size: contain;
+  }
+
+  .title-academic,
+  .title-strategy,
+  .title-social,
+  .title-branding,
+  .title-podcast {
+    font-size: medium;
+    margin-left: 2em;
+  }
+
+  .text-academic,
+  .text-strategy,
+  .text-social,
+  .text-branding,
+  .text-podcast {
+    font-size: 0.8em;
+    margin-left: 3em;
+    margin-right: 1em;
+  }
+}
